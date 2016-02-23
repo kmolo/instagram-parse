@@ -29,6 +29,25 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func onSignUp(sender: AnyObject) {
+        // initialize a user object
+        let newUser = PFUser()
+        
+        // set user properties
+        newUser.username = usernameField.text
+        newUser.password = passwordField.text
+        
+        // call sign up funciton on the object
+        newUser.signUpInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
+            
+            if let error = error {
+                print(error.localizedDescription)
+            } else {
+                print("User registered successfully")
+                
+                // manually segue to logged in view
+            }
+            
+        }
     }
 
 
