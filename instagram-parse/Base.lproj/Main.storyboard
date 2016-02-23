@@ -52,6 +52,7 @@
                     <connections>
                         <outlet property="passwordField" destination="uQO-jz-oxi" id="32J-AF-asb"/>
                         <outlet property="usernameField" destination="Map-eq-Btf" id="yL0-lh-fgU"/>
+                        <segue destination="3J0-JC-j3E" kind="presentation" identifier="loginSegue" id="fH5-Ge-Q7v"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -61,7 +62,26 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="296" y="360"/>
+            <point key="canvasLocation" x="198" y="358"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cco-Tj-c1V">
+            <objects>
+                <viewController id="3J0-JC-j3E" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hH1-Ab-Uwm"/>
+                        <viewControllerLayoutGuide type="bottom" id="TCX-XK-vsa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IAY-8x-667">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CPy-Y7-IKP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="624" y="358"/>
         </scene>
     </scenes>
 </document>
