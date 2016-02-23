@@ -33,6 +33,10 @@ class LoginViewController: UIViewController {
             
             if user != nil {
                 print("You're logged in")
+                
+                // manually segue to logged in view
+                self.performSegueWithIdentifier("loginSegue", sender: nil)
+                
             } else {
                 print(error!.localizedDescription)
             }
@@ -57,6 +61,7 @@ class LoginViewController: UIViewController {
                 print("User registered successfully")
                 
                 // manually segue to logged in view
+                self.performSegueWithIdentifier("loginSegue", sender: nil)
             }
             
         }
