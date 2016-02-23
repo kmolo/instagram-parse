@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5155948F11309C7157D5914E /* Pods_instagram_parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435AF65D6E4CC8D1C8F3BA47 /* Pods_instagram_parse.framework */; };
 		CD87F6E41C7C07C7002886DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD87F6E31C7C07C7002886DA /* AppDelegate.swift */; };
-		CD87F6E61C7C07C7002886DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD87F6E51C7C07C7002886DA /* ViewController.swift */; };
+		CD87F6E61C7C07C7002886DA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD87F6E51C7C07C7002886DA /* LoginViewController.swift */; };
 		CD87F6E91C7C07C7002886DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD87F6E71C7C07C7002886DA /* Main.storyboard */; };
 		CD87F6EB1C7C07C7002886DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD87F6EA1C7C07C7002886DA /* Assets.xcassets */; };
 		CD87F6EE1C7C07C7002886DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD87F6EC1C7C07C7002886DA /* LaunchScreen.storyboard */; };
@@ -21,7 +21,7 @@
 		B3A470CD6F2DCDDFA7303CDA /* Pods-instagram-parse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagram-parse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instagram-parse/Pods-instagram-parse.debug.xcconfig"; sourceTree = "<group>"; };
 		CD87F6E01C7C07C7002886DA /* instagram-parse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "instagram-parse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD87F6E31C7C07C7002886DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD87F6E51C7C07C7002886DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD87F6E51C7C07C7002886DA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CD87F6E81C7C07C7002886DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD87F6EA1C7C07C7002886DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD87F6ED1C7C07C7002886DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				CD87F6E31C7C07C7002886DA /* AppDelegate.swift */,
-				CD87F6E51C7C07C7002886DA /* ViewController.swift */,
+				CD87F6E51C7C07C7002886DA /* LoginViewController.swift */,
 				CD87F6E71C7C07C7002886DA /* Main.storyboard */,
 				CD87F6EA1C7C07C7002886DA /* Assets.xcassets */,
 				CD87F6EC1C7C07C7002886DA /* LaunchScreen.storyboard */,
@@ -211,7 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD87F6E61C7C07C7002886DA /* ViewController.swift in Sources */,
+				CD87F6E61C7C07C7002886DA /* LoginViewController.swift in Sources */,
 				CD87F6E41C7C07C7002886DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
