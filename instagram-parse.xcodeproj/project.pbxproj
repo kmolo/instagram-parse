@@ -13,6 +13,7 @@
 		CD87F6E91C7C07C7002886DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD87F6E71C7C07C7002886DA /* Main.storyboard */; };
 		CD87F6EB1C7C07C7002886DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD87F6EA1C7C07C7002886DA /* Assets.xcassets */; };
 		CD87F6EE1C7C07C7002886DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD87F6EC1C7C07C7002886DA /* LaunchScreen.storyboard */; };
+		CDFFF0101C7F4B0300F664C9 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFFF00F1C7F4B0300F664C9 /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CD87F6EA1C7C07C7002886DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD87F6ED1C7C07C7002886DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD87F6EF1C7C07C7002886DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFFF00F1C7F4B0300F664C9 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				CD87F6E31C7C07C7002886DA /* AppDelegate.swift */,
 				CD87F6E51C7C07C7002886DA /* LoginViewController.swift */,
 				CD87F6E71C7C07C7002886DA /* Main.storyboard */,
+				CDFFF00F1C7F4B0300F664C9 /* PhotosViewController.swift */,
 				CD87F6EA1C7C07C7002886DA /* Assets.xcassets */,
 				CD87F6EC1C7C07C7002886DA /* LaunchScreen.storyboard */,
 				CD87F6EF1C7C07C7002886DA /* Info.plist */,
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFFF0101C7F4B0300F664C9 /* PhotosViewController.swift in Sources */,
 				CD87F6E61C7C07C7002886DA /* LoginViewController.swift in Sources */,
 				CD87F6E41C7C07C7002886DA /* AppDelegate.swift in Sources */,
 			);
