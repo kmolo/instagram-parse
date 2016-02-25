@@ -67,7 +67,7 @@
         <!--Photos View Controller-->
         <scene sceneID="cco-Tj-c1V">
             <objects>
-                <viewController id="3J0-JC-j3E" customClass="PhotosViewController" customModule="instagram_parse" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PhotosViewController" id="3J0-JC-j3E" customClass="PhotosViewController" customModule="instagram_parse" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hH1-Ab-Uwm"/>
                         <viewControllerLayoutGuide type="bottom" id="TCX-XK-vsa"/>

@@ -29,6 +29,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             })
         )
         
+        // check if user is logged in.
+        if PFUser.currentUser() != nil {
+            // if there is a logged in user then load the home view controller
+            
+            let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("PhotosViewController")
+            window?.rootViewController = viewController
+            
+        }
+        
+        
         return true
     }
 
