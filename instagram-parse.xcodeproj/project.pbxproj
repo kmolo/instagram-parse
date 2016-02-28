@@ -59,6 +59,27 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CD63CA861C82A8C40039739C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CD63CA871C82AA5E0039739C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CD63CA881C82AA6B0039739C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		CD87F6D71C7C07C7002886DA = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +101,9 @@
 		CD87F6E21C7C07C7002886DA /* instagram-parse */ = {
 			isa = PBXGroup;
 			children = (
+				CD63CA871C82AA5E0039739C /* Models */,
+				CD63CA881C82AA6B0039739C /* Views */,
+				CD63CA861C82A8C40039739C /* ViewControllers */,
 				CD87F6E31C7C07C7002886DA /* AppDelegate.swift */,
 				CD87F6E51C7C07C7002886DA /* LoginViewController.swift */,
 				CD87F6E71C7C07C7002886DA /* Main.storyboard */,
