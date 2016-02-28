@@ -62,6 +62,8 @@
 		CD63CA861C82A8C40039739C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CD87F6E51C7C07C7002886DA /* LoginViewController.swift */,
+				CDFFF00F1C7F4B0300F664C9 /* PhotosViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -105,9 +107,7 @@
 				CD63CA881C82AA6B0039739C /* Views */,
 				CD63CA861C82A8C40039739C /* ViewControllers */,
 				CD87F6E31C7C07C7002886DA /* AppDelegate.swift */,
-				CD87F6E51C7C07C7002886DA /* LoginViewController.swift */,
 				CD87F6E71C7C07C7002886DA /* Main.storyboard */,
-				CDFFF00F1C7F4B0300F664C9 /* PhotosViewController.swift */,
 				CD87F6EA1C7C07C7002886DA /* Assets.xcassets */,
 				CD87F6EC1C7C07C7002886DA /* LaunchScreen.storyboard */,
 				CD87F6EF1C7C07C7002886DA /* Info.plist */,
